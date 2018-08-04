@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SpaceMatch.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{FA10BDC5-4F4D-44C1-841B-B4AB85BDAF37}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SpaceMatch.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SpaceMatchEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{569A5C39-FCDA-4B3F-B96B-FAD74BEC6DBA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SpaceMatch">
+			<UniqueIdentifier>{8C251DC6-E092-4966-B6F6-126460BCC658}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SpaceMatch\RotationsLibrary.cpp">
+			<Filter>Source\SpaceMatch</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SpaceMatch\RotationsLibrary.h">
+			<Filter>Source\SpaceMatch</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\SpaceMatch\SpaceMatch.Build.cs">
+			<Filter>Source\SpaceMatch</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SpaceMatch\SpaceMatch.cpp">
+			<Filter>Source\SpaceMatch</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SpaceMatch\SpaceMatch.h">
+			<Filter>Source\SpaceMatch</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
