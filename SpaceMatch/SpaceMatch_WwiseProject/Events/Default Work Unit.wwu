@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SFX_Robot_Impact" ID="{A72F73B0-8515-4B98-AB19-665A17B96357}">
+					<ChildrenList>
+						<Action Name="" ID="{316AD387-14CB-4B8D-B669-7BD96375F61C}" ShortID="536812256">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Robot_Impact" ID="{3165DD8A-A100-44FE-A5A1-E211CA4A818E}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Robot_Squeek" ID="{E1F75617-B8BE-41DB-9389-53B48D96CEEC}">
+					<ChildrenList>
+						<Action Name="" ID="{23D6EB15-231F-404A-BB3B-C4A2DB4A04C7}" ShortID="606063294">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Robot_Squeek" ID="{E2360AB1-38DF-427E-B75E-B423BBBBA22B}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Robot_Jetpack" ID="{0A49BD09-1A4C-44A6-AB82-AC2613EA11AB}">
+					<ChildrenList>
+						<Action Name="" ID="{BC3AF2FB-CB28-444F-B5F6-01523AE28C72}" ShortID="749444324">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Robot_Jetpack" ID="{E2B477CE-0F7E-40AC-AE1C-156DC74857F9}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Robot_Grab" ID="{9244A0C5-39EF-44EF-B5D3-6D1AF65DA36A}">
+					<ChildrenList>
+						<Action Name="" ID="{7AABE8F4-2A91-495C-AC00-A4C81880658F}" ShortID="897544238">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Robot_Grab" ID="{A4352161-7B07-4523-A861-52DDCF2F2771}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Socket_Click" ID="{2E3230BF-2741-40D2-B486-D545AF7B0414}">
+					<ChildrenList>
+						<Action Name="" ID="{EA6AAC66-0182-4BB0-AE5E-335BF199BEA7}" ShortID="817156934">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Socket_Click" ID="{BC5C6BFD-FD3F-4770-9673-0562FCE3A366}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUS_Start" ID="{D735C64E-3421-45DB-A90E-BD4121736115}">
+					<ChildrenList>
+						<Action Name="" ID="{03CF515E-363B-4606-BE49-12BD22384242}" ShortID="884449723">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_SpaceMatch_Level" ID="{88653D04-C82A-4976-8AEE-FAC633C87D1A}" WorkUnitID="{8373A661-6596-4B80-8B40-A18B43F15BCB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Start" ID="{F5EF761B-5BEC-4536-8810-9DC5466E0E3C}">
+					<ChildrenList>
+						<Action Name="" ID="{A265B2B2-BB26-4D93-B485-523E6C6C154D}" ShortID="457709857">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Sci-fi_Spaceship" ID="{DE49CC26-9D61-4554-9C1F-E11E72CF8FB1}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
