@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SpaceMatch-8532.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\big_b\Desktop\BioPunchReposotory\biopunchteam\SpaceMatch\Intermediate\Build\Win64\UE4Editor\Development\SpaceMatch\RotationsLibrary.cpp.obj"
+"C:\Users\big_b\Desktop\BioPunchReposotory\biopunchteam\SpaceMatch\Intermediate\Build\Win64\UE4Editor\Development\SpaceMatch\SpaceMatch.cpp.obj"
+"C:\Users\big_b\Desktop\BioPunchReposotory\biopunchteam\SpaceMatch\Intermediate\Build\Win64\UE4Editor\Development\SpaceMatch\RotationsLibrary.gen.cpp.obj"
+"C:\Users\big_b\Desktop\BioPunchReposotory\biopunchteam\SpaceMatch\Intermediate\Build\Win64\UE4Editor\Development\SpaceMatch\SpaceMatch.init.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\SpaceMatch\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\big_b\Desktop\BioPunchReposotory\biopunchteam\SpaceMatch\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SpaceMatch-8532.lib"
