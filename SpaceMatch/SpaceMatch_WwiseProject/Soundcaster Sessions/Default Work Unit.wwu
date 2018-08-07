@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0C6F6473-FAE0-4274-8F2F-FADC3EFB0C8A}" SchemaVersion="85">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{0C6F6473-FAE0-4274-8F2F-FADC3EFB0C8A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SpaceMatch" ID="{A555FDE8-9AF3-44AF-BC52-F899A486AF1A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="SFX_Robot_Impact" ID="{A72F73B0-8515-4B98-AB19-665A17B96357}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Robot_Grab" ID="{9244A0C5-39EF-44EF-B5D3-6D1AF65DA36A}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Robot_Squeek" ID="{E1F75617-B8BE-41DB-9389-53B48D96CEEC}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Robot_Jetpack" ID="{0A49BD09-1A4C-44A6-AB82-AC2613EA11AB}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Start" ID="{D735C64E-3421-45DB-A90E-BD4121736115}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Socket_Click" ID="{2E3230BF-2741-40D2-B486-D545AF7B0414}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_Start" ID="{F5EF761B-5BEC-4536-8810-9DC5466E0E3C}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
