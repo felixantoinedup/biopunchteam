@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3276262396	SFX_Robot_Grab			\Default Work Unit\SFX_Robot_Grab	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	115764605	SFX_Robot_Grab04	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Mac\SFX\SFX_Robot_Grab04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab04		24792
+	242100870	SFX_Robot_Grab02	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Mac\SFX\SFX_Robot_Grab02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab02		21944
+	385222031	SFX_Robot_Grab05	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Mac\SFX\SFX_Robot_Grab05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab05		31938
+	862612690	SFX_Robot_Grab03	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Mac\SFX\SFX_Robot_Grab03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab03		34912
+	1012548950	SFX_Robot_Grab01	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Mac\SFX\SFX_Robot_Grab01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab01		22524
+
