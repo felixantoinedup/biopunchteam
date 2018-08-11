@@ -1376,34 +1376,13 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="UI_Menu_Hover" ID="{6B1D609B-F964-4F71-8FE1-800A68225FB2}" ShortID="23529637">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C50E1C79-D92F-4CD8-BC48-220CF361E5AE}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4894F941-BF46-4CBB-9C1F-16CC1640F8CD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="UI_Menu_Hover" ID="{92E2642C-3D93-4438-AB98-9B102ABFB560}" ShortID="381821676">
-									<Language>SFX</Language>
-									<AudioFile>UI_Menu_Hover.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="UI_Menu_Hover" ID="{92E2642C-3D93-4438-AB98-9B102ABFB560}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="UI_Menu_Select" ID="{36ECEF74-7F03-4E95-8B24-8AAEB573076B}" ShortID="784768349">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>49</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>24</Value>
@@ -1411,7 +1390,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1435,6 +1414,43 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="UI_Menu_Select" ID="{94EFA271-4852-4A09-9AF4-D3556CD8475B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Menu_Hover" ID="{A726D6E8-1D6F-4380-B4C2-4E8C7FF688DB}" ShortID="600348016">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>59</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C50E1C79-D92F-4CD8-BC48-220CF361E5AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4894F941-BF46-4CBB-9C1F-16CC1640F8CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Menu_Hover" ID="{5EAB97E0-09E8-4962-A230-B5CECF794A85}" ShortID="571691479">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.34980867346939E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.30689686588921E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.63199252915452E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.607751002186591"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_Menu_Hover.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Menu_Hover" ID="{5EAB97E0-09E8-4962-A230-B5CECF794A85}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

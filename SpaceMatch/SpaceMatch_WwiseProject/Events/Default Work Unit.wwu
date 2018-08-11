@@ -110,7 +110,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI_Menu_Hover" ID="{6B1D609B-F964-4F71-8FE1-800A68225FB2}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+									<ObjectRef Name="UI_Menu_Hover" ID="{A726D6E8-1D6F-4380-B4C2-4E8C7FF688DB}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
