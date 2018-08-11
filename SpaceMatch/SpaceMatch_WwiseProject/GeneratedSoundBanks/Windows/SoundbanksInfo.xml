@@ -28,6 +28,8 @@
 				<Event Id="4120497912" Name="SFX_Robot_Jetpack" ObjectPath="\Events\Default Work Unit\SFX_Robot_Jetpack"/>
 				<Event Id="3142221492" Name="SFX_Robot_Squeek" ObjectPath="\Events\Default Work Unit\SFX_Robot_Squeek"/>
 				<Event Id="1259976303" Name="SFX_Socket_Click" ObjectPath="\Events\Default Work Unit\SFX_Socket_Click"/>
+				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\Default Work Unit\UI_Menu_Hover"/>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\Default Work Unit\UI_Menu_Select"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="49764070" Language="SFX">
@@ -110,6 +112,10 @@
 					<ShortName>SFX_Robot_Jetpack03.wav</ShortName>
 					<Path>SFX\SFX_Robot_Jetpack03_1C9C67B2.wem</Path>
 				</File>
+				<File Id="381821676" Language="SFX">
+					<ShortName>UI_Menu_Hover.wav</ShortName>
+					<Path>SFX\UI_Menu_Hover_1C9C67B2.wem</Path>
+				</File>
 				<File Id="385222031" Language="SFX">
 					<ShortName>SFX_Robot_Grab05.wav</ShortName>
 					<Path>SFX\SFX_Robot_Grab05_1C9C67B2.wem</Path>
@@ -121,6 +127,10 @@
 				<File Id="444794066" Language="SFX">
 					<ShortName>SFX_Impact_RobotCry04.wav</ShortName>
 					<Path>SFX\SFX_Impact_RobotCry04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="501309852" Language="SFX">
+					<ShortName>UI_Menu_Select.wav</ShortName>
+					<Path>SFX\UI_Menu_Select_F1484F45.wem</Path>
 				</File>
 				<File Id="514351473" Language="SFX">
 					<ShortName>SFX_Robot_Squeek06.wav</ShortName>

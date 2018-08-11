@@ -1359,6 +1359,86 @@
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="UI_Menu" ID="{144B91A7-DCF8-4BF8-9D27-CF5DF989B215}" ShortID="803610363">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C50E1C79-D92F-4CD8-BC48-220CF361E5AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4894F941-BF46-4CBB-9C1F-16CC1640F8CD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_Menu_Hover" ID="{6B1D609B-F964-4F71-8FE1-800A68225FB2}" ShortID="23529637">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C50E1C79-D92F-4CD8-BC48-220CF361E5AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4894F941-BF46-4CBB-9C1F-16CC1640F8CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Menu_Hover" ID="{92E2642C-3D93-4438-AB98-9B102ABFB560}" ShortID="381821676">
+									<Language>SFX</Language>
+									<AudioFile>UI_Menu_Hover.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Menu_Hover" ID="{92E2642C-3D93-4438-AB98-9B102ABFB560}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Menu_Select" ID="{36ECEF74-7F03-4E95-8B24-8AAEB573076B}" ShortID="784768349">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C50E1C79-D92F-4CD8-BC48-220CF361E5AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4894F941-BF46-4CBB-9C1F-16CC1640F8CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Menu_Select" ID="{94EFA271-4852-4A09-9AF4-D3556CD8475B}" ShortID="501309852">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="3.32448068513119E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.415268464528669"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_Menu_Select.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Menu_Select" ID="{94EFA271-4852-4A09-9AF4-D3556CD8475B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

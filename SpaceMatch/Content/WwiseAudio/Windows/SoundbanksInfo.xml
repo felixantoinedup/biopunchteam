@@ -21,28 +21,208 @@
 			<ShortName>SpaceMatch_Bank</ShortName>
 			<Path>SpaceMatch_Bank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1589289402" Name="AMB_Start" ObjectPath="\Events\Default Work Unit\AMB_Start"/>
+				<Event Id="1973954843" Name="MUS_Start" ObjectPath="\Events\Default Work Unit\MUS_Start"/>
 				<Event Id="3276262396" Name="SFX_Robot_Grab" ObjectPath="\Events\Default Work Unit\SFX_Robot_Grab"/>
+				<Event Id="4034802668" Name="SFX_Robot_Impact" ObjectPath="\Events\Default Work Unit\SFX_Robot_Impact"/>
+				<Event Id="4120497912" Name="SFX_Robot_Jetpack" ObjectPath="\Events\Default Work Unit\SFX_Robot_Jetpack"/>
+				<Event Id="3142221492" Name="SFX_Robot_Squeek" ObjectPath="\Events\Default Work Unit\SFX_Robot_Squeek"/>
+				<Event Id="1259976303" Name="SFX_Socket_Click" ObjectPath="\Events\Default Work Unit\SFX_Socket_Click"/>
+				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\Default Work Unit\UI_Menu_Hover"/>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\Default Work Unit\UI_Menu_Select"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="49764070" Language="SFX">
+					<ShortName>SFX_Robot_Jetpack05.wav</ShortName>
+					<Path>SFX\SFX_Robot_Jetpack05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="80248575" Language="SFX">
+					<ShortName>SFX_Fuse_Moteur01.wav</ShortName>
+					<Path>SFX\SFX_Fuse_Moteur01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="82142008" Language="SFX">
+					<ShortName>SFX_Impact_Damage04.wav</ShortName>
+					<Path>SFX\SFX_Impact_Damage04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="105368025" Language="SFX">
+					<ShortName>SFX_Impact_Damage03.wav</ShortName>
+					<Path>SFX\SFX_Impact_Damage03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="113305347" Language="SFX">
+					<ShortName>SFX_Robot_Jetpack01.wav</ShortName>
+					<Path>SFX\SFX_Robot_Jetpack01_1C9C67B2.wem</Path>
+				</File>
 				<File Id="115764605" Language="SFX">
 					<ShortName>SFX_Robot_Grab04.wav</ShortName>
 					<Path>SFX\SFX_Robot_Grab04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="132127449" Language="SFX">
+					<ShortName>SFX_Impact_Metal01.wav</ShortName>
+					<Path>SFX\SFX_Impact_Metal01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="179427019" Language="SFX">
+					<ShortName>SFX_Robot_Jetpack04.wav</ShortName>
+					<Path>SFX\SFX_Robot_Jetpack04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="181415141" Language="SFX">
+					<ShortName>SFX_Impact_Damage05.wav</ShortName>
+					<Path>SFX\SFX_Impact_Damage05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="191361511" Language="SFX">
+					<ShortName>MUS_SpaceMatch_Level.wav</ShortName>
+					<Path>SFX\MUS_SpaceMatch_Level_F17FB28C.wem</Path>
+				</File>
+				<File Id="212796211" Language="SFX">
+					<ShortName>SFX_Impact_Damage02.wav</ShortName>
+					<Path>SFX\SFX_Impact_Damage02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="226231086" Language="SFX">
+					<ShortName>SFX_Impact_Metal05.wav</ShortName>
+					<Path>SFX\SFX_Impact_Metal05_1C9C67B2.wem</Path>
 				</File>
 				<File Id="242100870" Language="SFX">
 					<ShortName>SFX_Robot_Grab02.wav</ShortName>
 					<Path>SFX\SFX_Robot_Grab02_1C9C67B2.wem</Path>
 				</File>
+				<File Id="242214880" Language="SFX">
+					<ShortName>SFX_Fuse_Moteur02.wav</ShortName>
+					<Path>SFX\SFX_Fuse_Moteur02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="250753751" Language="SFX">
+					<ShortName>SFX_Impact_RobotCry01.wav</ShortName>
+					<Path>SFX\SFX_Impact_RobotCry01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="254301151" Language="SFX">
+					<ShortName>AMB_Sci-fi_Loop.wav</ShortName>
+					<Path>SFX\AMB_Sci-fi_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="277159977" Language="SFX">
+					<ShortName>SFX_Impact_Metal04.wav</ShortName>
+					<Path>SFX\SFX_Impact_Metal04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="325089190" Language="SFX">
+					<ShortName>AMB_Sci-fi_Spor3.wav</ShortName>
+					<Path>SFX\AMB_Sci-fi_Spor3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="337259787" Language="SFX">
+					<ShortName>SFX_Robot_Jetpack06.wav</ShortName>
+					<Path>SFX\SFX_Robot_Jetpack06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="360925429" Language="SFX">
+					<ShortName>SFX_Robot_Jetpack03.wav</ShortName>
+					<Path>SFX\SFX_Robot_Jetpack03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="381821676" Language="SFX">
+					<ShortName>UI_Menu_Hover.wav</ShortName>
+					<Path>SFX\UI_Menu_Hover_1C9C67B2.wem</Path>
+				</File>
 				<File Id="385222031" Language="SFX">
 					<ShortName>SFX_Robot_Grab05.wav</ShortName>
 					<Path>SFX\SFX_Robot_Grab05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="435030486" Language="SFX">
+					<ShortName>SFX_Robot_Squeek02.wav</ShortName>
+					<Path>SFX\SFX_Robot_Squeek02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="444794066" Language="SFX">
+					<ShortName>SFX_Impact_RobotCry04.wav</ShortName>
+					<Path>SFX\SFX_Impact_RobotCry04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="501309852" Language="SFX">
+					<ShortName>UI_Menu_Select.wav</ShortName>
+					<Path>SFX\UI_Menu_Select_3DDA1A2A.wem</Path>
+				</File>
+				<File Id="514351473" Language="SFX">
+					<ShortName>SFX_Robot_Squeek06.wav</ShortName>
+					<Path>SFX\SFX_Robot_Squeek06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="541695931" Language="SFX">
+					<ShortName>SFX_Fuse_Click01.wav</ShortName>
+					<Path>SFX\SFX_Fuse_Click01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="552279903" Language="SFX">
+					<ShortName>SFX_Robot_Jetpack02.wav</ShortName>
+					<Path>SFX\SFX_Robot_Jetpack02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="577367532" Language="SFX">
+					<ShortName>SFX_Robot_Squeek03.wav</ShortName>
+					<Path>SFX\SFX_Robot_Squeek03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="590432859" Language="SFX">
+					<ShortName>SFX_Impact_RobotCry05.wav</ShortName>
+					<Path>SFX\SFX_Impact_RobotCry05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="613697897" Language="SFX">
+					<ShortName>AMB_Roomtone_Loop.wav</ShortName>
+					<Path>SFX\AMB_Roomtone_Loop_35BB3F73.wem</Path>
+				</File>
+				<File Id="627068254" Language="SFX">
+					<ShortName>SFX_Fuse_Clack02.wav</ShortName>
+					<Path>SFX\SFX_Fuse_Clack02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="628480818" Language="SFX">
+					<ShortName>SFX_Fuse_Click02.wav</ShortName>
+					<Path>SFX\SFX_Fuse_Click02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="661595855" Language="SFX">
+					<ShortName>SFX_Impact_RobotCry03.wav</ShortName>
+					<Path>SFX\SFX_Impact_RobotCry03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="670887325" Language="SFX">
+					<ShortName>AMB_Sci-fi_Spor1.wav</ShortName>
+					<Path>SFX\AMB_Sci-fi_Spor1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="727716087" Language="SFX">
+					<ShortName>AMB_Sci-fi_Spor4.wav</ShortName>
+					<Path>SFX\AMB_Sci-fi_Spor4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="766467356" Language="SFX">
+					<ShortName>SFX_Impact_RobotCry02.wav</ShortName>
+					<Path>SFX\SFX_Impact_RobotCry02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="771918738" Language="SFX">
+					<ShortName>SFX_Robot_Squeek01.wav</ShortName>
+					<Path>SFX\SFX_Robot_Squeek01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="844885422" Language="SFX">
+					<ShortName>AMB_Sci-fi_Spor2.wav</ShortName>
+					<Path>SFX\AMB_Sci-fi_Spor2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="846732014" Language="SFX">
+					<ShortName>SFX_Impact_Metal03.wav</ShortName>
+					<Path>SFX\SFX_Impact_Metal03_1C9C67B2.wem</Path>
 				</File>
 				<File Id="862612690" Language="SFX">
 					<ShortName>SFX_Robot_Grab03.wav</ShortName>
 					<Path>SFX\SFX_Robot_Grab03_1C9C67B2.wem</Path>
 				</File>
+				<File Id="906707018" Language="SFX">
+					<ShortName>SFX_Impact_Metal02.wav</ShortName>
+					<Path>SFX\SFX_Impact_Metal02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="915400998" Language="SFX">
+					<ShortName>AMB_Grotto_Loop.wav</ShortName>
+					<Path>SFX\AMB_Grotto_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="969092433" Language="SFX">
+					<ShortName>SFX_Impact_Damage01.wav</ShortName>
+					<Path>SFX\SFX_Impact_Damage01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="976909649" Language="SFX">
+					<ShortName>SFX_Robot_Squeek04.wav</ShortName>
+					<Path>SFX\SFX_Robot_Squeek04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="988773960" Language="SFX">
+					<ShortName>SFX_Robot_Squeek05.wav</ShortName>
+					<Path>SFX\SFX_Robot_Squeek05_1C9C67B2.wem</Path>
+				</File>
 				<File Id="1012548950" Language="SFX">
 					<ShortName>SFX_Robot_Grab01.wav</ShortName>
 					<Path>SFX\SFX_Robot_Grab01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1018564422" Language="SFX">
+					<ShortName>SFX_Fuse_Clack01.wav</ShortName>
+					<Path>SFX\SFX_Fuse_Clack01_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

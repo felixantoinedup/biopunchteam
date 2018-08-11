@@ -102,6 +102,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="UI_Menu_Hover" ID="{215406F5-6FF6-43F9-A2F2-1E945EBE3CD0}">
+					<ChildrenList>
+						<Action Name="" ID="{69BB0B35-0EDD-4EB7-A19C-EEAA15A14794}" ShortID="908962132">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Hover" ID="{6B1D609B-F964-4F71-8FE1-800A68225FB2}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Menu_Select" ID="{DAC51691-A681-4586-8C8C-D461C754C55A}">
+					<ChildrenList>
+						<Action Name="" ID="{1CFF5B2F-4E61-4FE7-8D27-A678DB966B66}" ShortID="845772517">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Select" ID="{36ECEF74-7F03-4E95-8B24-8AAEB573076B}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

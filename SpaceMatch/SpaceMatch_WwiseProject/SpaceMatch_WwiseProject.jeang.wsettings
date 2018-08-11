@@ -4,10 +4,12 @@
 		<UserProjectSettings Name="" ID="{F5BC77C9-C294-4B27-A83E-4FE389136697}">
 			<PropertyList>
 				<Property Name="Event Action List\{0A49BD09-1A4C-44A6-AB82-AC2613EA11AB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{215406F5-6FF6-43F9-A2F2-1E945EBE3CD0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2E3230BF-2741-40D2-B486-D545AF7B0414}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9244A0C5-39EF-44EF-B5D3-6D1AF65DA36A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A72F73B0-8515-4B98-AB19-665A17B96357}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D735C64E-3421-45DB-A90E-BD4121736115}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DAC51691-A681-4586-8C8C-D461C754C55A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E1F75617-B8BE-41DB-9389-53B48D96CEEC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F5EF761B-5BEC-4536-8810-9DC5466E0E3C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -24,7 +26,10 @@
 					</ValueList>
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="0yPQqAYv10Ks/fc/So/2nw=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="MHOwQ/Bd5Eiukt9IGNJw4g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="oq4Ai5of8UW1yfy2ZgDIZQH/////////i+B9eL6URUmaXRdPHOdomwH/////////"/>
 				<Property Name="Interactive Music\x64_{2611157C-51AD-4D72-AAA3-C97DA4AB6028} - SegmentEditorZoomInfo" Type="string" Value="AAAAAABAFEAAAAAAAAACQBglUDasmBdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -58,14 +63,14 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="SQwWkOREA0CbgPR/VBU3rCBe34DOVmJCiafLgYfBgYs="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="SQwWkOREA0CbgPR/VBU3rA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="zi7IUgf8WEiTrUsfIV7zPg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="SNZ10vObQEKLFoORlbbxrg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
-				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
+				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="SNZ10vObQEKLFoORlbbxrg=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
