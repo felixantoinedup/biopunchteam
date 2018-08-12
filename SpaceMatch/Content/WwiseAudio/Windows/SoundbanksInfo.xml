@@ -112,10 +112,6 @@
 					<ShortName>SFX_Robot_Jetpack03.wav</ShortName>
 					<Path>SFX\SFX_Robot_Jetpack03_1C9C67B2.wem</Path>
 				</File>
-				<File Id="381821676" Language="SFX">
-					<ShortName>UI_Menu_Hover.wav</ShortName>
-					<Path>SFX\UI_Menu_Hover_1C9C67B2.wem</Path>
-				</File>
 				<File Id="385222031" Language="SFX">
 					<ShortName>SFX_Robot_Grab05.wav</ShortName>
 					<Path>SFX\SFX_Robot_Grab05_1C9C67B2.wem</Path>
@@ -143,6 +139,10 @@
 				<File Id="552279903" Language="SFX">
 					<ShortName>SFX_Robot_Jetpack02.wav</ShortName>
 					<Path>SFX\SFX_Robot_Jetpack02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="571691479" Language="SFX">
+					<ShortName>UI_Menu_Hover.wav</ShortName>
+					<Path>SFX\UI_Menu_Hover_3744530C.wem</Path>
 				</File>
 				<File Id="577367532" Language="SFX">
 					<ShortName>SFX_Robot_Squeek03.wav</ShortName>
