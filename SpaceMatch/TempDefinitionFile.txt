@@ -1,1 +1,3 @@
+SpaceMatch_Bank	"UI_Menu_Hover"
+SpaceMatch_Bank	"UI_Menu_Select"
 SpaceMatch_Bank	"SFX_Robot_Grab"
