@@ -75,6 +75,16 @@
 				</Event>
 				<Event Name="MUS_Start" ID="{D735C64E-3421-45DB-A90E-BD4121736115}">
 					<ChildrenList>
+						<Action Name="" ID="{94E8276F-B800-4558-90BE-3AC201935F36}" ShortID="153044077">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_SpaceMatch_Menu" ID="{910E42A7-251C-41E3-B827-9AF84E967FA8}" WorkUnitID="{8373A661-6596-4B80-8B40-A18B43F15BCB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{03CF515E-363B-4606-BE49-12BD22384242}" ShortID="884449723">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
@@ -89,6 +99,16 @@
 				</Event>
 				<Event Name="AMB_Start" ID="{F5EF761B-5BEC-4536-8810-9DC5466E0E3C}">
 					<ChildrenList>
+						<Action Name="" ID="{8E159A42-B0B6-4375-89E6-BD4858713457}" ShortID="244533221">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Sci-fi_Loop" ID="{D928BA45-DDF9-4082-9F87-43FECD09F4D5}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{A265B2B2-BB26-4D93-B485-523E6C6C154D}" ShortID="457709857">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
@@ -125,6 +145,60 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI_Menu_Select" ID="{36ECEF74-7F03-4E95-8B24-8AAEB573076B}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUS_Menu" ID="{89073889-F641-4EAC-B8C7-3618B2641391}">
+					<ChildrenList>
+						<Action Name="" ID="{70FC4787-1941-49C3-A76D-FFA9F4909509}" ShortID="713942955">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_SpaceMatch_Menu" ID="{910E42A7-251C-41E3-B827-9AF84E967FA8}" WorkUnitID="{8373A661-6596-4B80-8B40-A18B43F15BCB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{65C06C9B-907E-405D-A820-53D82676C6AF}" ShortID="610124095">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Sci-fi_Loop" ID="{D928BA45-DDF9-4082-9F87-43FECD09F4D5}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Sequence_Success" ID="{EDDAB37B-6845-4114-A54C-A5023E27E4FF}">
+					<ChildrenList>
+						<Action Name="" ID="{D8DC55F6-A0A8-4D35-87C9-B1771145467C}" ShortID="611886613">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Cue_Success" ID="{3DF1D268-5869-4033-8C95-5A54A3125D02}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Door_Open" ID="{22CDD65B-C67C-47A5-BC6E-C6AEABDA33F0}">
+					<ChildrenList>
+						<Action Name="" ID="{92EC610E-8A82-496F-9659-79B9D8024238}" ShortID="1015290317">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Doors_Open" ID="{739CD888-9051-485E-87E5-39FA5B96119C}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

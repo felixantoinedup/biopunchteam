@@ -22,11 +22,14 @@
 			<Path>SpaceMatch_Bank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1589289402" Name="AMB_Start" ObjectPath="\Events\Default Work Unit\AMB_Start"/>
+				<Event Id="3149643052" Name="MUS_Menu" ObjectPath="\Events\Default Work Unit\MUS_Menu"/>
 				<Event Id="1973954843" Name="MUS_Start" ObjectPath="\Events\Default Work Unit\MUS_Start"/>
+				<Event Id="1514860704" Name="SFX_Door_Open" ObjectPath="\Events\Default Work Unit\SFX_Door_Open"/>
 				<Event Id="3276262396" Name="SFX_Robot_Grab" ObjectPath="\Events\Default Work Unit\SFX_Robot_Grab"/>
 				<Event Id="4034802668" Name="SFX_Robot_Impact" ObjectPath="\Events\Default Work Unit\SFX_Robot_Impact"/>
 				<Event Id="4120497912" Name="SFX_Robot_Jetpack" ObjectPath="\Events\Default Work Unit\SFX_Robot_Jetpack"/>
 				<Event Id="3142221492" Name="SFX_Robot_Squeek" ObjectPath="\Events\Default Work Unit\SFX_Robot_Squeek"/>
+				<Event Id="2545363202" Name="SFX_Sequence_Success" ObjectPath="\Events\Default Work Unit\SFX_Sequence_Success"/>
 				<Event Id="1259976303" Name="SFX_Socket_Click" ObjectPath="\Events\Default Work Unit\SFX_Socket_Click"/>
 				<Event Id="2163476404" Name="UI_Menu_Hover" ObjectPath="\Events\Default Work Unit\UI_Menu_Hover"/>
 				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\Default Work Unit\UI_Menu_Select"/>
@@ -204,6 +207,14 @@
 					<ShortName>AMB_Grotto_Loop.wav</ShortName>
 					<Path>SFX\AMB_Grotto_Loop_F17FB28C.wem</Path>
 				</File>
+				<File Id="927738824" Language="SFX">
+					<ShortName>SFX_Doors_Open.wav</ShortName>
+					<Path>SFX\SFX_Doors_Open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="957871399" Language="SFX">
+					<ShortName>MUS_SpaceMatch_Menu.wav</ShortName>
+					<Path>SFX\MUS_SpaceMatch_Menu_F17FB28C.wem</Path>
+				</File>
 				<File Id="969092433" Language="SFX">
 					<ShortName>SFX_Impact_Damage01.wav</ShortName>
 					<Path>SFX\SFX_Impact_Damage01_1C9C67B2.wem</Path>
@@ -223,6 +234,10 @@
 				<File Id="1018564422" Language="SFX">
 					<ShortName>SFX_Fuse_Clack01.wav</ShortName>
 					<Path>SFX\SFX_Fuse_Clack01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1056760073" Language="SFX">
+					<ShortName>SFX_Cue_Success.wav</ShortName>
+					<Path>SFX\SFX_Cue_Success_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

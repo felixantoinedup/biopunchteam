@@ -1089,6 +1089,51 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<Sound Name="SFX_Cue_Success" ID="{3DF1D268-5869-4033-8C95-5A54A3125D02}" ShortID="630095613">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C50E1C79-D92F-4CD8-BC48-220CF361E5AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4894F941-BF46-4CBB-9C1F-16CC1640F8CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Cue_Success" ID="{4259FCB4-0174-4295-8E00-0C6C4E0287EC}" ShortID="1056760073">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Cue_Success.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Cue_Success" ID="{4259FCB4-0174-4295-8E00-0C6C4E0287EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Doors_Open" ID="{739CD888-9051-485E-87E5-39FA5B96119C}" ShortID="479570388">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C50E1C79-D92F-4CD8-BC48-220CF361E5AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4894F941-BF46-4CBB-9C1F-16CC1640F8CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Doors_Open" ID="{4BD899C0-0C56-480F-8461-26DF21DA708E}" ShortID="927738824">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Doors_Open.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Doors_Open" ID="{4BD899C0-0C56-480F-8461-26DF21DA708E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="AMB_Sci-fi_Spaceship" ID="{003B92B4-E6F7-43AB-A371-20F0D44FC236}" ShortID="857139893">
@@ -1421,11 +1466,6 @@
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>59</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

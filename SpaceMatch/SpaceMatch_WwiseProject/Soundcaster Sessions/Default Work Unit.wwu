@@ -22,6 +22,10 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="SFX_Sequence_Success" ID="{EDDAB37B-6845-4114-A54C-A5023E27E4FF}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="UI_Menu_Hover" ID="{215406F5-6FF6-43F9-A2F2-1E945EBE3CD0}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
 							<Position X="1" Y="3"/>
 						</Module>
@@ -30,16 +34,24 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="MUS_Start" ID="{D735C64E-3421-45DB-A90E-BD4121736115}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
-							<Position X="2" Y="2"/>
+							<ObjectRef Name="SFX_Door_Open" ID="{22CDD65B-C67C-47A5-BC6E-C6AEABDA33F0}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="SFX_Socket_Click" ID="{2E3230BF-2741-40D2-B486-D545AF7B0414}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="MUS_Menu" ID="{89073889-F641-4EAC-B8C7-3618B2641391}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Start" ID="{D735C64E-3421-45DB-A90E-BD4121736115}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="AMB_Start" ID="{F5EF761B-5BEC-4536-8810-9DC5466E0E3C}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}"/>
-							<Position X="3" Y="2"/>
+							<Position X="5" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

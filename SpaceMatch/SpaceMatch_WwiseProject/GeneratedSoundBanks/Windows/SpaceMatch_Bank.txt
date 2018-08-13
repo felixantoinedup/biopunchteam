@@ -1,9 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1259976303	SFX_Socket_Click			\Default Work Unit\SFX_Socket_Click	
+	1514860704	SFX_Door_Open			\Default Work Unit\SFX_Door_Open	
 	1589289402	AMB_Start			\Default Work Unit\AMB_Start	
 	1973954843	MUS_Start			\Default Work Unit\MUS_Start	
 	2163476404	UI_Menu_Hover			\Default Work Unit\UI_Menu_Hover	
+	2545363202	SFX_Sequence_Success			\Default Work Unit\SFX_Sequence_Success	
 	3142221492	SFX_Robot_Squeek			\Default Work Unit\SFX_Robot_Squeek	
+	3149643052	MUS_Menu			\Default Work Unit\MUS_Menu	
 	3276262396	SFX_Robot_Grab			\Default Work Unit\SFX_Robot_Grab	
 	3474566310	UI_Menu_Select			\Default Work Unit\UI_Menu_Select	
 	4034802668	SFX_Robot_Impact			\Default Work Unit\SFX_Robot_Impact	
@@ -30,14 +33,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	325089190	AMB_Sci-fi_Spor3	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\AMB_Sci-fi_Spor3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Sci-fi_Spaceship\AMB_Sci-fi_Spaceship\AMB_Spaceship_SporadicSounds\AMB_Sci-fi_Spor3		79966
 	337259787	SFX_Robot_Jetpack06	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Jetpack06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Jetpack\SFX_Robot_Jetpack06		134508
 	360925429	SFX_Robot_Jetpack03	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Jetpack03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Jetpack\SFX_Robot_Jetpack03		132512
-	381821676	UI_Menu_Hover	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\UI_Menu_Hover_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Menu\UI_Menu_Hover		44164
 	385222031	SFX_Robot_Grab05	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Grab05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab05		31938
 	435030486	SFX_Robot_Squeek02	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Squeek02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Squeek\SFX_Robot_Squeek02		65892
 	444794066	SFX_Impact_RobotCry04	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Impact_RobotCry04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Impact\SFX_Impact_RobotCry\SFX_Impact_RobotCry04		180716
-	501309852	UI_Menu_Select	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\UI_Menu_Select_F1484F45.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Menu\UI_Menu_Select		33758
+	501309852	UI_Menu_Select	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\UI_Menu_Select_3DDA1A2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Menu\UI_Menu_Select		33758
 	514351473	SFX_Robot_Squeek06	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Squeek06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Squeek\SFX_Robot_Squeek06		163212
 	541695931	SFX_Fuse_Click01	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Fuse_Click01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Socket_Click\SFX_Socket_Click\SFX_Fuse_Click01		14422
 	552279903	SFX_Robot_Jetpack02	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Jetpack02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Jetpack\SFX_Robot_Jetpack02		136110
+	571691479	UI_Menu_Hover	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\UI_Menu_Hover_3744530C.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Menu\UI_Menu_Hover		51346
 	577367532	SFX_Robot_Squeek03	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Squeek03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Squeek\SFX_Robot_Squeek03		144152
 	590432859	SFX_Impact_RobotCry05	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Impact_RobotCry05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Impact\SFX_Impact_RobotCry\SFX_Impact_RobotCry05		167492
 	613697897	AMB_Roomtone_Loop	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\AMB_Roomtone_Loop_35BB3F73.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Sci-fi_Spaceship\AMB_Sci-fi_Spaceship\AMB_Roomtone_Loop		10760528
@@ -53,9 +56,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	862612690	SFX_Robot_Grab03	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Grab03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab03		34912
 	906707018	SFX_Impact_Metal02	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Impact_Metal02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Impact\SFX_Impact_Metal\SFX_Impact_Metal02		47432
 	915400998	AMB_Grotto_Loop	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\AMB_Grotto_Loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Sci-fi_Spaceship\AMB_Sci-fi_Spaceship\AMB_Grotto_Loop		2734264
+	927738824	SFX_Doors_Open	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Doors_Open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Doors_Open		163614
+	957871399	MUS_SpaceMatch_Menu	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\MUS_SpaceMatch_Menu_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_SpaceMatch_Menu\MUS_SpaceMatch_Menu\MUS_SpaceMatch_Menu		10160704
 	969092433	SFX_Impact_Damage01	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Impact_Damage01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Impact\SFX_Impact_Damage\SFX_Impact_Damage01		261712
 	976909649	SFX_Robot_Squeek04	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Squeek04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Squeek\SFX_Robot_Squeek04		78252
 	988773960	SFX_Robot_Squeek05	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Squeek05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Squeek\SFX_Robot_Squeek05		126836
 	1012548950	SFX_Robot_Grab01	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Robot_Grab01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Robot_Grab\SFX_Robot_Grab01		22524
 	1018564422	SFX_Fuse_Clack01	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Fuse_Clack01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Socket_Click\SFX_Socket_Clack\SFX_Fuse_Clack01		25440
+	1056760073	SFX_Cue_Success	C:\Users\jeang\Documents\biopunchteam\SpaceMatch\SpaceMatch_WwiseProject\.cache\Windows\SFX\SFX_Cue_Success_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_SpaceMatch\SFX_Cue_Success		78252
 
