@@ -85,6 +85,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{43BA2BCE-72EC-43AC-B167-2640499327E3}" ShortID="266415797">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Sci-fi_Loop" ID="{D928BA45-DDF9-4082-9F87-43FECD09F4D5}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{03CF515E-363B-4606-BE49-12BD22384242}" ShortID="884449723">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
@@ -152,6 +162,28 @@
 				</Event>
 				<Event Name="MUS_Menu" ID="{89073889-F641-4EAC-B8C7-3618B2641391}">
 					<ChildrenList>
+						<Action Name="" ID="{8A7F6AE2-1D47-42C8-AA3D-46FBBE794295}" ShortID="843146189">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Sci-fi_Spaceship" ID="{003B92B4-E6F7-43AB-A371-20F0D44FC236}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F6B39B81-1640-40DA-A4B5-4CD57196DA88}" ShortID="27305788">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_SpaceMatch_Level" ID="{88653D04-C82A-4976-8AEE-FAC633C87D1A}" WorkUnitID="{8373A661-6596-4B80-8B40-A18B43F15BCB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{70FC4787-1941-49C3-A76D-FFA9F4909509}" ShortID="713942955">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>

@@ -5,13 +5,20 @@
 			<ChildrenList>
 				<SoundBank Name="SpaceMatch_Bank" ID="{43B07330-5DF0-48E4-AE92-DF4818D270E2}">
 					<ObjectInclusionList>
+						<ObjectRef Name="SFX_Socket_Click" ID="{2E3230BF-2741-40D2-B486-D545AF7B0414}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Sequence_Success" ID="{EDDAB37B-6845-4114-A54C-A5023E27E4FF}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Robot_Squeek" ID="{E1F75617-B8BE-41DB-9389-53B48D96CEEC}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_SpaceMatch" ID="{80DF5E20-56CE-4262-89A7-CB8187C1818B}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AMB_Sci-fi_Spaceship" ID="{003B92B4-E6F7-43AB-A371-20F0D44FC236}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI_Menu_Hover" ID="{215406F5-6FF6-43F9-A2F2-1E945EBE3CD0}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Robot_Jetpack" ID="{0A49BD09-1A4C-44A6-AB82-AC2613EA11AB}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Robot_Grab" ID="{9244A0C5-39EF-44EF-B5D3-6D1AF65DA36A}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AMB_Start" ID="{F5EF761B-5BEC-4536-8810-9DC5466E0E3C}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI_Menu_Select" ID="{DAC51691-A681-4586-8C8C-D461C754C55A}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUS_Start" ID="{D735C64E-3421-45DB-A90E-BD4121736115}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Door_Open" ID="{22CDD65B-C67C-47A5-BC6E-C6AEABDA33F0}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUS_SpaceMatch_Level" ID="{88653D04-C82A-4976-8AEE-FAC633C87D1A}" WorkUnitID="{8373A661-6596-4B80-8B40-A18B43F15BCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Robot_Impact" ID="{A72F73B0-8515-4B98-AB19-665A17B96357}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="UI_Menu" ID="{144B91A7-DCF8-4BF8-9D27-CF5DF989B215}" WorkUnitID="{90160C49-44E4-4003-9B80-F47F541537AC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUS_Menu" ID="{89073889-F641-4EAC-B8C7-3618B2641391}" WorkUnitID="{52C82ECE-FC07-4858-93AD-4B1F215EF33E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

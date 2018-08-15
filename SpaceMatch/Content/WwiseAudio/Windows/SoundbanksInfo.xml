@@ -103,10 +103,6 @@
 					<ShortName>SFX_Impact_Metal04.wav</ShortName>
 					<Path>SFX\SFX_Impact_Metal04_1C9C67B2.wem</Path>
 				</File>
-				<File Id="325089190" Language="SFX">
-					<ShortName>AMB_Sci-fi_Spor3.wav</ShortName>
-					<Path>SFX\AMB_Sci-fi_Spor3_1C9C67B2.wem</Path>
-				</File>
 				<File Id="337259787" Language="SFX">
 					<ShortName>SFX_Robot_Jetpack06.wav</ShortName>
 					<Path>SFX\SFX_Robot_Jetpack06_1C9C67B2.wem</Path>
